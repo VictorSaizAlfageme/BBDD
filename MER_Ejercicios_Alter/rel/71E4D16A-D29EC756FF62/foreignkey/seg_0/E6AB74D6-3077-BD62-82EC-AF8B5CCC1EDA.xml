@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6AB74D6-3077-BD62-82EC-AF8B5CCC1EDA" containerWithKeyObject="5AE451C7-B231-197F-1E4F-2D1710E9DD9B" localFKIndex="D10571DE-902F-3C00-13B1-6E2D19960A19" name="PED_NIF_FK">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>613879A0-D49D-6872-FB3A-E43E232EAA10</importedID>
+<referredTableLongName>TIENDAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA6C6373-4506-6970-2026-5EFD0EBF009E</referredTableID>
+<keyObject>D25D9EA2-1B79-200B-0704-BD6237D9DE54</keyObject>
+<referredKeyID>D25D9EA2-1B79-200B-0704-BD6237D9DE54</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

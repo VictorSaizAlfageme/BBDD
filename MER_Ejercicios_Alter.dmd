@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_Ejercicios_Alter" id="A95581CD-BC36-0CE2-93D4-1EE4A62970EB" version="3.5">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:15 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A95581CD-BC36-0CE2-93D4-1EE4A62970EB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B44D19B9-12CF-B172-3654-F18A3B12E2CD">
+<designStoragePath>/EJERCICIOS ALTER</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

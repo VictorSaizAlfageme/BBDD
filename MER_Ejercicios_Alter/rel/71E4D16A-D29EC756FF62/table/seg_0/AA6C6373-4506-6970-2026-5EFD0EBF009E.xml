@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA6C6373-4506-6970-2026-5EFD0EBF009E" name="TIENDAS">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>A08003D1-3548-B28D-CAFE-FEDE42C41FA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIF" id="7EF9DA9F-6097-53C7-E01B-366CF81E5532">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>8FF6C4BE-0719-ACDA-757D-31929ED45663</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58E468D1-73B7-98E8-860F-584F26E5B61A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F03FC438-6DDC-56DA-B306-1782382A6443">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>63B7C605-BDBE-7191-DAAF-547865B886B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC77D84E-BD18-3938-65A9-3D21687714A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="ED3D9BDD-0272-BA8C-3841-936E1496A4A8">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>C27B15A6-31E5-EA0E-1A69-C4F0A9D87A64</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC77D84E-BD18-3938-65A9-3D21687714A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POBLACION" id="DBE098A5-F705-9F01-6132-2DD4550813AD">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>CA5894B8-DAD5-6436-5EDD-1D4E69CE2E7C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC77D84E-BD18-3938-65A9-3D21687714A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA" id="69ED69A2-A272-D646-B030-ADC507D57C51">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>01FE8ACF-1696-BE8C-CE41-95BD0D30FEBD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC77D84E-BD18-3938-65A9-3D21687714A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODPOSTAL" id="E04B7871-5429-18F6-1623-DD1CE297936C">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>8408870F-11F4-A69B-E12D-AF6C54FD4307</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA847181-1D3F-C985-7B12-DE487B6CF702</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D25D9EA2-1B79-200B-0704-BD6237D9DE54" name="TIE_NIF_PK">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>2B219069-A3A9-5C69-49C7-8A95487743B2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EF9DA9F-6097-53C7-E01B-366CF81E5532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="TIE_NOM_CK" directorySegmentName="seg_0" id="5BEBCAAC-02E1-8048-0934-5FF64FC8569E">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>5E2106EF-BECB-5246-41F0-C260D84E6E80</importedID>
+<rule><![CDATA[PROVINCIA = UPPER(PROVINCIA)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

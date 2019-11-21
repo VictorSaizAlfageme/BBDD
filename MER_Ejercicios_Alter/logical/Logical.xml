@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CA7EDD08-8BF7-B37F-043C-79AED79E389A" mainViewID="898593B5-D5B2-5C66-4BD0-82B4A721F5DD">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:15 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

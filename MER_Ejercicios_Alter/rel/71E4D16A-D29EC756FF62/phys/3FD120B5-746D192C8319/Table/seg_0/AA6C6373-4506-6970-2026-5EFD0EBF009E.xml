@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIENDAS" directorySegmentName="seg_0" id="AA6C6373-4506-6970-2026-5EFD0EBF009E">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROVINCIA" id="69ED69A2-A272-D646-B030-ADC507D57C51">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NIF" id="7EF9DA9F-6097-53C7-E01B-366CF81E5532">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POBLACION" id="DBE098A5-F705-9F01-6132-2DD4550813AD">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODPOSTAL" id="E04B7871-5429-18F6-1623-DD1CE297936C">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="ED3D9BDD-0272-BA8C-3841-936E1496A4A8">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="F03FC438-6DDC-56DA-B306-1782382A6443">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIE_NIF_PK" id="D25D9EA2-1B79-200B-0704-BD6237D9DE54">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="TIE_NOM_CK" id="5BEBCAAC-02E1-8048-0934-5FF64FC8569E">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

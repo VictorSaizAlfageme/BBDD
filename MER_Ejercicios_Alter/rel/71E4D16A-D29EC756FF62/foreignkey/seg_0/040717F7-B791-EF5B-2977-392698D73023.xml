@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="040717F7-B791-EF5B-2977-392698D73023" containerWithKeyObject="5AE451C7-B231-197F-1E4F-2D1710E9DD9B" localFKIndex="CC8985E1-1E2E-5F11-EE59-0DB8F3C4CD4E" name="PED_FK">
+<sourceDDLFile>EJERCICIOS ALTER.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:47 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>0B4C6628-0615-83D1-83FD-412F17F1B7E4</importedID>
+<referredTableLongName>ARTICULOS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>25B24E6E-7D99-8420-90A6-576E134A2E05</referredTableID>
+<keyObject>30307374-F7D4-CEA0-F3CB-A5952E52CA73</keyObject>
+<referredKeyID>30307374-F7D4-CEA0-F3CB-A5952E52CA73</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ARTICULO,COD_FABRICANTE,PESO,CATEGORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
