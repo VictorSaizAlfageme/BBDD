@@ -3,11 +3,16 @@
 <createdBy>1gdaw05</createdBy>
 <createdTime>2019-11-21 11:49:17 UTC</createdTime>
 <ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
 <importDDLFileStamps>
 <importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
 <fileName>EJERCICIOS ALTER.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>ejericiodml.sql</fileName>
 <pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
 <dbType>11</dbType>
 </importDDLFileStamp>

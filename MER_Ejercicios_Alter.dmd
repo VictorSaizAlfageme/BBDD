@@ -9,5 +9,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B44D19B9-12CF-B172-3654-F18A3B12E2CD">
 <designStoragePath>/EJERCICIOS ALTER</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A6E5C112-12DB-752B-AAF6-39D0C99F6D6C">
+<designStoragePath>/ejericiodml</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>
