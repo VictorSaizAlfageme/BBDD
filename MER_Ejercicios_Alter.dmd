@@ -12,5 +12,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A6E5C112-12DB-752B-AAF6-39D0C99F6D6C">
 <designStoragePath>/ejericiodml</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A78F351B-89C4-293A-F6A5-41B3EAB1B3D1">
+<designStoragePath>/Creacion_tablas_emple_depart</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

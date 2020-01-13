@@ -17,7 +17,7 @@
 <importedID>76F2DC32-8D89-E162-24EA-9178D7865ADD</importedID>
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>9DC52CFB-727E-7E60-0735-921D0648E5C3</domain>
+<domain>3BF89E08-8FC7-D0C2-6868-FE8AD9FDA1F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -30,7 +30,7 @@
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>85D7E4CF-BF8F-7773-E757-DC9AFD92CC14</domain>
+<domain>6FF89739-0322-513D-7C60-1C2E315DBF4E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -43,7 +43,7 @@
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>85D7E4CF-BF8F-7773-E757-DC9AFD92CC14</domain>
+<domain>6FF89739-0322-513D-7C60-1C2E315DBF4E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

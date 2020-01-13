@@ -16,5 +16,10 @@
 <pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
 <dbType>11</dbType>
 </importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Creacion_tablas_emple_depart.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
 </importDDLFileStamps>
 </relationalModel>
