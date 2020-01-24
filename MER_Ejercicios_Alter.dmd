@@ -15,5 +15,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A78F351B-89C4-293A-F6A5-41B3EAB1B3D1">
 <designStoragePath>/Creacion_tablas_emple_depart</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="88E87737-CB57-4968-52E1-31950510B73B">
+<designStoragePath>/SrvOracle_tareas_7_correlacionadas</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

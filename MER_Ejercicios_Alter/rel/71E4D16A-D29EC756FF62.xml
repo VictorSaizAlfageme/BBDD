@@ -21,5 +21,10 @@
 <pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
 <dbType>11</dbType>
 </importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>SrvOracle_tareas_7_correlacionadas.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
 </importDDLFileStamps>
 </relationalModel>
