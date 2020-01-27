@@ -32,3 +32,12 @@ where e.id_jefe = j.emp_no(+);
 select e.apellido, nvl(d.dnombre, 'NO TIENE departamento') as departamento
 from emple e, depart d
 where e.dept_no = d.dept_no(+);
+
+
+
+
+----prueba
+
+select d.dept_no, d.dnombre, e.apellido 
+from emple e, depart d 
+where e.dept_no(+)=d.dept_no;

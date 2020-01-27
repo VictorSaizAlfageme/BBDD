@@ -1,63 +1,119 @@
---Ejercicio 1
-select apellido 
-from emple 
-where oficio in (select oficio
-                 from emple         
-                 where upper(apellido) = 'GIL') 
-and upper(apellido) not like 'GIL';
+--EJERCICIO 1
 
---Ejercicio 2
-select e.* 
-from emple e, depart d
-where e.dept_no = d.dept_no and d.loc IN (select loc from depart where upper(loc) in ('MADRID','BARCELONA'));
+SELECT APELLIDO
+FROM EMPLE
+WHERE UPPER(OFICIO) IN (SELECT distinct UPPER(OFICIO) 
+                        FROM EMPLE 
+                        WHERE UPPER(APELLIDO)='GIL') AND 
+UPPER(APELLIDO)!='GIL';
 
---Ejercicio 3
-select apellido
-from emple
-where oficio in (select oficio
-                 from emple         
-                 where upper(apellido) = 'GIL')
-and salario = (select salario
-                from emple         
-                where upper(apellido) = 'GIL')
-and upper(apellido) not like 'GIL';
+--EJERCICIO 2
 
---Ejercicio 4
-select * 
-from emple
-where oficio in (select oficio
-                 from emple         
-                 where upper(apellido) = 'JIMENEZ')
-and salario >= (select salario
-                from emple         
-                where upper(apellido) = 'FERNANDEZ');
-                
---Ejercicio 5
-select distinct e.dept_no, count(emp_no)
-from emple e, depart d
-where e.dept_no = d.dept_no
-group by e.dept_no
-having count(emp_no)=(select max(count(emp_no))
-                    from emple
-                    group by dept_no);
-                    
---Ejercicio 6
-select oficio
-from emple
-where  salario = (select round(min(salario))
-                    from emple);
-                    
-                    
---Ejercicio 7
+SELECT E.EMP_NO , E.APELLIDO , E.SALARIO , E.DEPT_NO , D.LOC
+FROM EMPLE E , DEPART D
+WHERE UPPER(LOC) IN ('MADRID','BARCELONA') 
+AND E.DEPT_NO = D.DEPT_NO;
+
+--EJERCICIO 3
+
+SELECT APELLIDO
+FROM EMPLE
+WHERE UPPER(OFICIO) IN (SELECT UPPER(OFICIO) 
+                        FROM EMPLE 
+                        WHERE UPPER(APELLIDO)='GIL') 
+AND SALARIO IN (SELECT SALARIO 
+                FROM EMPLE 
+                WHERE UPPER(APELLIDO)='GIL')
+AND UPPER(APELLIDO)!='GIL' ;
+
+--EJERCICIO 4
+SELECT APELLIDO , OFICIO , SALARIO , FECHA_ALTA
+FROM EMPLE
+WHERE UPPER(OFICIO) = ANY (SELECT UPPER(OFICIO) 
+                        FROM EMPLE 
+                        WHERE UPPER(APELLIDO)='JIMENEZ')
+OR SALARIO >= ALL (SELECT DISTINCT SALARIO 
+                    FROM EMPLE 
+                    WHERE UPPER(APELLIDO)='FERNANDEZ')
+AND UPPER(APELLIDO) NOT IN('JIMENEZ','FERNANDEZ');
+
+--EJERCICIO 5
+
+SELECT DEPT_NO "NUMERO DEPARTAMENTO" , COUNT(EMP_NO) "NUMERO DE EMPLEADOS"
+FROM EMPLE
+GROUP BY DEPT_NO
+HAVING COUNT(EMP_NO) = (SELECT MAX(COUNT(EMP_NO))
+                        FROM EMPLE
+                        GROUP BY DEPT_NO);
+                        
+--EJERCICIO 6
+
+SELECT OFICIO , AVG(SALARIO) "SALARIO MEDIO"
+FROM EMPLE
+GROUP BY OFICIO
+HAVING AVG(SALARIO) = (SELECT MIN(AVG(SALARIO)) 
+                        FROM EMPLE 
+                        GROUP BY OFICIO);
+
+--EJERCICIO 7
+
 SELECT EMP_NO, APELLIDO
 FROM EMPLE
-WHERE SALARIO in ( SELECT MIN(SALARIO)
+WHERE SALARIO IN ( SELECT MIN(SALARIO)
 				FROM EMPLE
 				GROUP BY DEPT_NO);
-                
---Ejercicio 8
+/*ESTABA INCORRECTO EL CIERRE DEL PARENTESIS Y EL OPERADOR IN*/
+
+--EJERCICIO 8
+
 SELECT APELLIDO, OFICIO
 FROM EMPLE
-WHERE OFICIO = (SELECT OFICIO
-			FROM EMPLE
-			WHERE upper(APELLIDO) = 'PEREZ');
+WHERE OFICIO = ( SELECT OFICIO
+    			FROM EMPLE
+        		WHERE APELLIDO = 'PEREZ');
+            
+/*QUIZAS NO HAYA NINGUN PEREZ EN LA EMPRESA O TAMBIEN PUEDE QUE NO 
+ESTE GUARDADO EN MAYUSCULAS Y NECESITARIAMOS UN UPPER(APELLIDO)*/
+
+/*NO SALDRIA PORQUE NO SE PUEDE OPERAR CON NULOS*/
+
+--EJERCICIO 9
+
+SELECT E.APELLIDO
+FROM EMPLE E 
+WHERE E.EMP_NO NOT IN (SELECT E.ID_JEFE 
+                        FROM EMPLE EE 
+                        WHERE E.EMP_NO=EE.ID_JEFE);
+
+
+--EJERCICIO 10
+
+SELECT APELLIDO
+FROM EMPLE 
+WHERE EMP_NO IN (SELECT ID_JEFE 
+                    FROM EMPLE);
+
+--EJERCICIO 11
+
+INSERT INTO EMPLE VALUES(1111,'CUCU','PROGRAMADOR',7839,SYSDATE,3705,NULL,20);
+
+ROLLBACK;
+
+SELECT EMP_NO , APELLIDO
+FROM EMPLE 
+WHERE DEPT_NO IN (SELECT DEPT_NO 
+                    FROM EMPLE 
+                    WHERE UPPER(APELLIDO) LIKE '%U%');
+
+--EJERCICIO 12
+
+SELECT EMP_NO , APELLIDO
+FROM EMPLE 
+WHERE DEPT_NO IN (SELECT DEPT_NO 
+                    FROM EMPLE
+                    WHERE UPPER(APELLIDO) LIKE '%U%')
+AND SALARIO>(SELECT AVG(SALARIO) FROM EMPLE);
+
+--EJERCICIO 13
+
+SELECT APELLIDO
