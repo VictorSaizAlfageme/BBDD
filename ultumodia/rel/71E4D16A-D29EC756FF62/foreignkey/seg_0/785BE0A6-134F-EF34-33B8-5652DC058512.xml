@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="785BE0A6-134F-EF34-33B8-5652DC058512" containerWithKeyObject="37887BA7-470E-8249-907D-93B85A4BA438" localFKIndex="41BE09B0-5D48-4516-C08F-232DCC95A041" name="HL_DNI_FK">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>55403B08-C5E2-8313-7534-6DE9302E779C</importedID>
+<referredTableLongName>EMPLEADOS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>BE5B5E18-92DC-6015-9682-DDB7A3FD9745</referredTableID>
+<keyObject>A884BC99-CB63-C870-A21C-A106AC2ABB3E</keyObject>
+<referredKeyID>A884BC99-CB63-C870-A21C-A106AC2ABB3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMP_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

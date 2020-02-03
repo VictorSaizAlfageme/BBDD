@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66023861-CCFA-D69B-AEC6-BDD476095C60" name="ALMACENES">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-31 07:24:24 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALM_NO" id="52710F05-24C1-930F-E214-9DBA688866AE">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-31 07:24:24 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC7D2253-AF75-40B0-9C4A-2CEB040B1CDF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANOMBRE" id="180BE660-42C7-7F22-5466-89EF4F3E69BE">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-31 07:24:24 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>403A1C08-1EBD-F51B-667A-951D8CCE38F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="480B5783-3C7B-B353-8EDB-8DD94450E522">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-31 07:24:24 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>403A1C08-1EBD-F51B-667A-951D8CCE38F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="015FE53A-A46D-EC4D-0158-8C54AAD6C5AB" name="ALM_PK">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-31 07:24:24 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52710F05-24C1-930F-E214-9DBA688866AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ALMACENES" directorySegmentName="seg_0" id="66023861-CCFA-D69B-AEC6-BDD476095C60">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:09:31 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ANOMBRE" id="180BE660-42C7-7F22-5466-89EF4F3E69BE">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:09:31 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOC" id="480B5783-3C7B-B353-8EDB-8DD94450E522">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:09:31 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALM_NO" id="52710F05-24C1-930F-E214-9DBA688866AE">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:09:31 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ALM_PK" id="015FE53A-A46D-EC4D-0158-8C54AAD6C5AB">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:09:31 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

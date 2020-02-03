@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="71E4D16A-7FA7-BD57-2135-D29EC756FF62" mainViewID="133CA9AE-0428-7586-7038-EA9F5A4BAEE4">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-21 11:49:17 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>EJERCICIOS ALTER.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>ejericiodml.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Creacion_tablas_emple_depart.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>SrvOracle_tareas_7_correlacionadas.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Tabla_Almacenes_Historial.sql</fileName>
+<pathName>/Users/1gdaw05/Desktop/github/BBDD</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

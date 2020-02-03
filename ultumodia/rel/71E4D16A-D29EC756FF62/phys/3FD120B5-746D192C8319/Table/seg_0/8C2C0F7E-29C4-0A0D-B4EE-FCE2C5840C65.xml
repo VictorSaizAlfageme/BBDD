@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPARTS" directorySegmentName="seg_0" id="8C2C0F7E-29C4-0A0D-B4EE-FCE2C5840C65">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPT_NO" id="1A637950-6A35-D707-79AA-2C886FE59289">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOC" id="81B9DF6A-5F53-8911-06BD-FB4348F37E5C">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNOMBRE" id="EF77A76F-CB2C-26B4-A5A7-0E077C3497E2">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPT_PK" id="6A928D87-EB6D-32DB-F2ED-B74675622D07">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

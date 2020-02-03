@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BEC6273-7CBC-6A02-BB22-FBA898609EB5" name="HJOB">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>B0AFE25A-1144-47EC-FA9A-D27C7A3C4215</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="41CBDF61-A689-9950-FF34-52A654B078A2">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>C1A3D32F-6961-4EE8-B9BC-72E1FF2176AD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ABC91CF-AECA-0A11-AD2C-E9569EA155FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E5B5236-DD2D-65D5-6E64-F2A255D20841" referredColumn="02841529-6327-2436-A0FA-97C39566EB12"/>
+</associations>
+</Column>
+<Column name="OFICIO" id="2324368D-C8E2-D646-F890-0550D26AAEBF">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>477137A0-3A5E-6743-1F6F-E1985C59E206</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF32D9AE-5CD9-48D1-0192-CA6E1485F0BA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="747EC226-BDBA-DFAB-35B1-B1F5C55A3FF5">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>FBCA3586-98B8-B60D-3FA2-F4AB73D3C30C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F1F815A9-343B-AA21-03A7-90A57B9EE518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="01554DFF-D830-8236-69C0-8FCF27C4C918">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>D1FD1540-F8C8-6B7A-B350-DEB08EC82F11</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F1F815A9-343B-AA21-03A7-90A57B9EE518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NO" id="C0AFC18D-8CAD-9646-0BFC-DB8274D94EB5">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>49C71D69-3058-BDFF-2F0D-957638945799</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC7D2253-AF75-40B0-9C4A-2CEB040B1CDF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9167C38E-A452-C55C-44CE-0055A6338E13" name="HJOB_PK">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>5A7FD05B-FD19-4F4F-C716-5370AD288141</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41CBDF61-A689-9950-FF34-52A654B078A2"/>
+<colUsage columnID="747EC226-BDBA-DFAB-35B1-B1F5C55A3FF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B78732A-B22D-FDF7-E75B-AD628E6ECD53" name="HJOB_EMPNO_FK">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41CBDF61-A689-9950-FF34-52A654B078A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="HJOB_FECHAS_CK" directorySegmentName="seg_0" id="F9E37E12-022D-832A-C120-7AD8FBEEC24E">
+<sourceDDLFile>SrvOracle_tareas_7_correlacionadas.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>MER_Ejercicios_Alter</ownerDesignName>
+<importedID>53CB808D-E563-51FB-A232-018F73B28218</importedID>
+<rule><![CDATA[FECHA_INICIO<FECHA_FIN]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

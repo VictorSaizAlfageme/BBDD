@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLEADOS" directorySegmentName="seg_0" id="BE5B5E18-92DC-6015-9682-DDB7A3FD9745">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIRECC" id="23E53D40-98A2-13D0-A0F1-1698F8F95469">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MUNICIPIO" id="2516209C-966D-74D4-50AE-40D164E804A3">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARIO" id="33C73C7B-4AB5-B75C-5AB9-C10E2C49455C">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NAC" id="4F2D797D-E12B-0BE4-7008-93E64FB12972">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="550822FC-FDD6-2783-8F90-1229DC3399EB">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIR" id="6A90997A-9561-A034-7591-61D33AC7BAF7">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIUDAD" id="6B35001E-33D0-9C62-FAFA-36DF2CC7C903">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEXO" id="724CBC19-2D7A-305B-3637-D2E9618206AC">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO1" id="7361F30E-D49F-65AF-D598-369430E70B72">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_POSTAL" id="9C8B686A-388D-3450-7415-72163EBE1EBB">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DPTO_COD" id="ADDD05F7-137E-D524-4AC5-7C94C65B8F41">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO2" id="C57F97FD-4D2D-DDC2-00FB-B85B1AF38733">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRAB_COD" id="D78A33E6-68B8-7099-443A-C77B41E2401D">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_NO" id="E162C3E4-6154-9B05-196D-17241FF1AAA8">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLEADOS_EMPLEADOS_FK" id="30789CDE-A517-8A24-4996-9B2EFDBAC738">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EM_PK" id="A884BC99-CB63-C870-A21C-A106AC2ABB3E">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

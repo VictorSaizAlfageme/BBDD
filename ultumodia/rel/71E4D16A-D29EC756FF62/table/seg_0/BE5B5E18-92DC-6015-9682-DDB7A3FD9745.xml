@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE5B5E18-92DC-6015-9682-DDB7A3FD9745" name="EMPLEADOS">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>B28FFF36-39AC-8E64-BA21-5309CF5F3ACB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="E162C3E4-6154-9B05-196D-17241FF1AAA8">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>3F5A4412-8002-C3F3-AC26-306BFB9056D5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>19D22DE0-9B9C-D441-2C0E-06E59CD9496B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="550822FC-FDD6-2783-8F90-1229DC3399EB">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>04E75BAD-C3C7-69DB-116E-953882591C1F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58E468D1-73B7-98E8-860F-584F26E5B61A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO1" id="7361F30E-D49F-65AF-D598-369430E70B72">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>1850DEC6-96E2-0591-664F-F155C0A6F799</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF32D9AE-5CD9-48D1-0192-CA6E1485F0BA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO2" id="C57F97FD-4D2D-DDC2-00FB-B85B1AF38733">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>2564E6E9-9312-62EB-ED36-4BA67A6291C9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF32D9AE-5CD9-48D1-0192-CA6E1485F0BA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECC" id="23E53D40-98A2-13D0-A0F1-1698F8F95469">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>51A3A48C-BE88-8549-0135-A39D5B7CD823</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0314B21A-DA0B-3197-705F-FE6E9475EB19</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="6B35001E-33D0-9C62-FAFA-36DF2CC7C903">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>4164C12C-2862-2792-430D-BFE0BCF7604F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC77D84E-BD18-3938-65A9-3D21687714A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO" id="2516209C-966D-74D4-50AE-40D164E804A3">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>03F7743D-382F-0854-CD2E-B9980DC5C759</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CC77D84E-BD18-3938-65A9-3D21687714A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_POSTAL" id="9C8B686A-388D-3450-7415-72163EBE1EBB">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>0526D15B-3AB6-EDDA-AB62-61F2E3BAE6FA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA847181-1D3F-C985-7B12-DE487B6CF702</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="724CBC19-2D7A-305B-3637-D2E9618206AC">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>2D391AFA-E2A6-E33A-7609-17B56A0EB991</importedID>
+<constraintName>EM_SEX_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7B26264B-86E7-6082-2D19-AFEB9567CB59</domain>
+<listOfValues>
+<valueDef value="H" description=""/>
+<valueDef value="M" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NAC" id="4F2D797D-E12B-0BE4-7008-93E64FB12972">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>6B924D42-CD68-2F60-B71E-D7887933F81F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F1F815A9-343B-AA21-03A7-90A57B9EE518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAB_COD" id="D78A33E6-68B8-7099-443A-C77B41E2401D">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>ED0447FB-B449-3F18-FDEB-A0EA22451BD7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BC859B86-C650-BDDB-84B6-2F993DB8535C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="33C73C7B-4AB5-B75C-5AB9-C10E2C49455C">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>9D8E7A4B-CD00-935C-A026-4B69B2E262D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>55CC9D0D-B960-21B0-4FBA-1F6BCC85D431</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIR" id="6A90997A-9561-A034-7591-61D33AC7BAF7">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>0E2D64ED-5B72-6A86-A978-11D434CA8297</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>19D22DE0-9B9C-D441-2C0E-06E59CD9496B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BD669AD-7F68-93EA-CBB2-DB9410939B5B" referredColumn="E162C3E4-6154-9B05-196D-17241FF1AAA8"/>
+</associations>
+</Column>
+<Column name="DPTO_COD" id="ADDD05F7-137E-D524-4AC5-7C94C65B8F41">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>D6F81CCE-0033-D8F8-46BF-5C5746099682</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E46F60AB-C2A7-7614-362C-129FDAE0C52F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A884BC99-CB63-C870-A21C-A106AC2ABB3E" name="EM_PK">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>8884407E-FE2A-A114-A3B9-6C34735CDDBE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E162C3E4-6154-9B05-196D-17241FF1AAA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30789CDE-A517-8A24-4996-9B2EFDBAC738" name="EMPLEADOS_EMPLEADOS_FK">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A90997A-9561-A034-7591-61D33AC7BAF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

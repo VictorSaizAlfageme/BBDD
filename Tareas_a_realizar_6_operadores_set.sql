@@ -22,13 +22,17 @@ minus select upper(loc)
             
             
             
-select distinct upper(d.loc) as localidad, nvl(to_char(d.dept_no), ' ') as codigo, nvl(' ',' ') as almacen
-from depart d 
-union select distinct upper(loc) as ciudad, null, nvl(anombre,'')
-            from almacenes;
-            
+SELECT UPPER(LOC) "LOCALIDAD", NVL(NULL,' ') "NOMBRE ALMACEN" ,  NVL(DNOMBRE,' ') "NOMBRE DEPARTAMENTO"
+FROM DEPART 
+UNION
+SELECT UPPER(LOC) , NVL(ANOMBRE, ' ') , NVL(NULL,' ')
+FROM ALMACENES;
+
  --Sacar los datos de los empleados que trabajan en un departamento cuya localidad tenga tambien almacenes
-           
+select distinct upper(loc) as ciudades
+from depart
+intersect select upper(loc)
+            from almacenes;
             
             
 --Ejercicio 

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4BAC419C-2FAB-EC6A-7D0F-4BD1B05DF3B8" containerWithKeyObject="9CBC0BD8-F421-05D4-DEDE-5833BADEA0B2" localFKIndex="BDBCC12F-5CDC-A30F-2B26-7EA53BF11B22" name="EMPLE_DIR_FK">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>47D159AE-2B9D-BFC2-4760-BA60A96AF85B</importedID>
+<referredTableLongName>EMPLE</referredTableLongName>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>9CBC0BD8-F421-05D4-DEDE-5833BADEA0B2</referredTableID>
+<keyObject>42F31700-9DC5-54E4-6520-87F75A2AE749</keyObject>
+<referredKeyID>42F31700-9DC5-54E4-6520-87F75A2AE749</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMP_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

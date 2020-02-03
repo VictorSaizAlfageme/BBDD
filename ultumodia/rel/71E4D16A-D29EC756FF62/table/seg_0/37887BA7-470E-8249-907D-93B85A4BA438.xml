@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37887BA7-470E-8249-907D-93B85A4BA438" name="HISTORIAL_LABORAL">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>051C110A-6C87-B890-99F4-2BD3478F741F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="7DEC19BA-F4D0-D779-DEAA-5F78FE1280F0">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>0CDEE34D-9162-5A23-BBE1-56F6813ECB9F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>19D22DE0-9B9C-D441-2C0E-06E59CD9496B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="785BE0A6-134F-EF34-33B8-5652DC058512" referredColumn="E162C3E4-6154-9B05-196D-17241FF1AAA8"/>
+</associations>
+</Column>
+<Column name="TRAB_COD" id="9BCE0835-8F48-EE34-AF9D-2401B399B0D4">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>1D0D46E1-663F-FC4B-A5EE-5D56406A0D12</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BC859B86-C650-BDDB-84B6-2F993DB8535C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="E6E2516D-9C2A-9E01-4958-3DCB86F80BA0">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>EB92523D-619B-4D4D-3630-99FA4CDE66EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F1F815A9-343B-AA21-03A7-90A57B9EE518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="AD57BC43-CF2F-6BE4-828F-7F5F2544D51B">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>D9711204-E24E-3229-9A69-27ADCE7F134D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F1F815A9-343B-AA21-03A7-90A57B9EE518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPTO_COD" id="0DB17272-212F-7A9D-77AF-6A2E4AE7E7F3">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>119AEAF3-B652-0BD5-5361-8E6D17FEF34F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E46F60AB-C2A7-7614-362C-129FDAE0C52F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B6E3C90-EFFE-AF87-841C-16CCFCFB6E6B" name="HL_PK">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>5391EE9A-08FA-788E-6E21-30EF9F72CBF0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DEC19BA-F4D0-D779-DEAA-5F78FE1280F0"/>
+<colUsage columnID="E6E2516D-9C2A-9E01-4958-3DCB86F80BA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41BE09B0-5D48-4516-C08F-232DCC95A041" name="HL_DNI_FK">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DEC19BA-F4D0-D779-DEAA-5F78FE1280F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="HL_FECHAS" directorySegmentName="seg_0" id="1FBF85A7-6419-6CD4-36E7-2FE28614BF53">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>0CE71103-DBFC-A2B4-FF9B-54098CF1D6B1</importedID>
+<rule><![CDATA[FECHA_INICIO<FECHA_FIN]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

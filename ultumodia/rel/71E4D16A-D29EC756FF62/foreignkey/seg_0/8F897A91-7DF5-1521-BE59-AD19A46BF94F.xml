@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F897A91-7DF5-1521-BE59-AD19A46BF94F" containerWithKeyObject="9CBC0BD8-F421-05D4-DEDE-5833BADEA0B2" localFKIndex="0470C569-CBA8-387B-E908-812C5A9D7C3A" name="EMPLE_DEP_FK">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>75E80D57-27E1-BD1C-41FA-BBA6923BC397</importedID>
+<referredTableLongName>DEPART</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>915E3329-EA7F-614A-F1A5-82C88DE46063</referredTableID>
+<keyObject>7ED93A46-27EE-11D0-9AC3-DC69525FE008</keyObject>
+<referredKeyID>7ED93A46-27EE-11D0-9AC3-DC69525FE008</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DEPT_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="915E3329-EA7F-614A-F1A5-82C88DE46063" name="DEPART">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>4C3158B6-FF57-732D-A141-C58CDADF20D7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPT_NO" id="1168603B-733B-8E9B-C9FE-C418018E91E2">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>76F2DC32-8D89-E162-24EA-9178D7865ADD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC7D2253-AF75-40B0-9C4A-2CEB040B1CDF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNOMBRE" id="47C8A3B6-ED69-6C0C-7106-4B24DA329655">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>A2C28917-E75D-E7D3-97D0-2D6906D5F186</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>403A1C08-1EBD-F51B-667A-951D8CCE38F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="9609C944-D5B6-3AFC-A796-B408BC107FD9">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>D21514E9-9435-8A4A-98C7-443759E27663</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>403A1C08-1EBD-F51B-667A-951D8CCE38F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ED93A46-27EE-11D0-9AC3-DC69525FE008" name="DEP_PK">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>33DCF975-1274-705D-80F2-7ED9FFE99372</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1168603B-733B-8E9B-C9FE-C418018E91E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

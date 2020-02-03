@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CBC0BD8-F421-05D4-DEDE-5833BADEA0B2" name="EMPLE">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>E8E45273-371D-27EF-C8B1-7CDE551A910A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="02841529-6327-2436-A0FA-97C39566EB12">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>7F2CD7B8-14E6-0E66-633C-03FE64D6E0EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ABC91CF-AECA-0A11-AD2C-E9569EA155FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="7521D23A-C0FF-E1D0-75D2-F32F269020EA">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>41CE966A-18E3-60B8-7D63-3B4D3DC81593</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58E468D1-73B7-98E8-860F-584F26E5B61A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFICIO" id="A280A373-D797-8375-7435-76FCCF45D4BD">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>7E1C849C-8313-DDCB-D442-165770C1B707</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF32D9AE-5CD9-48D1-0192-CA6E1485F0BA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_JEFE" id="2579DA35-5D64-089E-8396-E8D60D45EFFC">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>C382C328-A570-F9BB-572E-BA42014F7FC9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4ABC91CF-AECA-0A11-AD2C-E9569EA155FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BAC419C-2FAB-EC6A-7D0F-4BD1B05DF3B8" referredColumn="02841529-6327-2436-A0FA-97C39566EB12"/>
+</associations>
+</Column>
+<Column name="FECHA_ALTA" id="47706D5C-A436-5B4D-BF0E-AC1EE1658094">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>9C9B332F-D9CE-7AE3-25B5-5FABA009A37C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F1F815A9-343B-AA21-03A7-90A57B9EE518</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="6B444A9A-E2B4-1B09-47B0-421CBE25757A">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>B1F594FF-C014-09A8-2983-F4894C19011A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>453EB852-6944-8028-F403-9A5CED23D1CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMISION_PCT" id="5E2F4857-5DA6-327E-F556-E1953D0F7FB9">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>2676C18A-42C2-6336-DD83-AA3E5DA87D95</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9740A9C2-940B-6DB0-5DDB-30E781F778E5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NO" id="D2A1FF6C-230E-70B8-8EC5-5CA1A6BCF30B">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>552864B7-907D-D4ED-8FEE-171B1CB0D37F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC7D2253-AF75-40B0-9C4A-2CEB040B1CDF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F897A91-7DF5-1521-BE59-AD19A46BF94F" referredColumn="1168603B-733B-8E9B-C9FE-C418018E91E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42F31700-9DC5-54E4-6520-87F75A2AE749" name="EMPLE_PK">
+<sourceDDLFile>ejericiodml.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>4FDE9BC4-B543-FC95-B14D-496A9EE07CB3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02841529-6327-2436-A0FA-97C39566EB12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0470C569-CBA8-387B-E908-812C5A9D7C3A" name="EMPLE_DEP_FK">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2A1FF6C-230E-70B8-8EC5-5CA1A6BCF30B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDBCC12F-5CDC-A30F-2B26-7EA53BF11B22" name="EMPLE_DIR_FK">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2579DA35-5D64-089E-8396-E8D60D45EFFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

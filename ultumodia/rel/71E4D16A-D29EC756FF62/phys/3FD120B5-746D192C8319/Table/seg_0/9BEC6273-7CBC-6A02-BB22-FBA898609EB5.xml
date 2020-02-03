@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HJOB" directorySegmentName="seg_0" id="9BEC6273-7CBC-6A02-BB22-FBA898609EB5">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_FIN" id="01554DFF-D830-8236-69C0-8FCF27C4C918">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFICIO" id="2324368D-C8E2-D646-F890-0550D26AAEBF">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_NO" id="41CBDF61-A689-9950-FF34-52A654B078A2">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INICIO" id="747EC226-BDBA-DFAB-35B1-B1F5C55A3FF5">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="C0AFC18D-8CAD-9646-0BFC-DB8274D94EB5">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HJOB_EMPNO_FK" id="2B78732A-B22D-FDF7-E75B-AD628E6ECD53">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HJOB_PK" id="9167C38E-A452-C55C-44CE-0055A6338E13">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="HJOB_FECHAS_CK" id="F9E37E12-022D-832A-C120-7AD8FBEEC24E">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-01-17 08:34:27 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

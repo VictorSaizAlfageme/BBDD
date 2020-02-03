@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLE" directorySegmentName="seg_0" id="9CBC0BD8-F421-05D4-DEDE-5833BADEA0B2">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMP_NO" id="02841529-6327-2436-A0FA-97C39566EB12">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_JEFE" id="2579DA35-5D64-089E-8396-E8D60D45EFFC">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_ALTA" id="47706D5C-A436-5B4D-BF0E-AC1EE1658094">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMISION_PCT" id="5E2F4857-5DA6-327E-F556-E1953D0F7FB9">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARIO" id="6B444A9A-E2B4-1B09-47B0-421CBE25757A">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="7521D23A-C0FF-E1D0-75D2-F32F269020EA">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFICIO" id="A280A373-D797-8375-7435-76FCCF45D4BD">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="D2A1FF6C-230E-70B8-8EC5-5CA1A6BCF30B">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DEP_FK" id="0470C569-CBA8-387B-E908-812C5A9D7C3A">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DIR_FK" id="BDBCC12F-5CDC-A30F-2B26-7EA53BF11B22">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLE_PK" id="42F31700-9DC5-54E4-6520-87F75A2AE749">
+<createdBy>1gdaw05</createdBy>
+<createdTime>2019-11-25 09:15:17 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

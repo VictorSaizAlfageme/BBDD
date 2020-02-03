@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C2C0F7E-29C4-0A0D-B4EE-FCE2C5840C65" name="DEPARTS">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>0B5EF9D4-F51B-27E4-F57D-008391ABEE36</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPT_NO" id="1A637950-6A35-D707-79AA-2C886FE59289">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>EF6E95A7-7204-B2BC-EDBB-B3C3E740D201</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E46F60AB-C2A7-7614-362C-129FDAE0C52F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNOMBRE" id="EF77A76F-CB2C-26B4-A5A7-0E077C3497E2">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>939D87BC-4A61-2332-0016-CDBB00BCB4C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>403A1C08-1EBD-F51B-667A-951D8CCE38F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="81B9DF6A-5F53-8911-06BD-FB4348F37E5C">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>D109B8EA-56CC-C180-5146-B221F8972E7F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>403A1C08-1EBD-F51B-667A-951D8CCE38F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A928D87-EB6D-32DB-F2ED-B74675622D07" name="DEPT_PK">
+<sourceDDLFile>Tabla_Almacenes_Historial.sql</sourceDDLFile>
+<createdBy>1gdaw05</createdBy>
+<createdTime>2020-02-03 09:36:19 UTC</createdTime>
+<ownerDesignName>ultumodia</ownerDesignName>
+<importedID>779FB2FA-9A76-28F0-669A-7CD413C8BA0E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A637950-6A35-D707-79AA-2C886FE59289"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
