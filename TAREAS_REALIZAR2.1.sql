@@ -78,8 +78,60 @@ WHERE DS.DEPT_NOMBRE = D.DNOMBRE --JOIN DE DEPART Y DE LA VISTA
         AND E.DEPT_NO = D.DEPT_NO --JOIN DE EMPLE Y DEPARTAMENTO
         AND E.SALARIO > DS.SAL_MED --CONDICION DE QUE EL SALARIO SEA MAYOR QUE LA MEDIA
 ORDER BY E.APELLIDO
-;                
-           
+;         
+
+--Ejercicio 6
+
+DROP TABLE CENTROS CASCADE CONSTRAINTS;
+
+CREATE TABLE CENTROS (
+ID NUMBER(2) GENERATED ALWAYS AS IDENTITY 
+                                    start with 1
+                                    maxvalue 99
+                                    increment by 1
+                                    nocycle nocache,
+NOMBRE VARCHAR2(30) NOT NULL,
+CALLE VARCHAR2(30),
+NUMERO NUMBER(2),
+CP VARCHAR2(5),
+CIUDAD VARCHAR2(15),
+PROVINCIA VARCHAR2(40),
+TELEFONO VARCHAR2(9),
+CONSTRAINT CENTROS_ID_PK PRIMARY KEY (ID)
+);
+     
+--Pasos para la comprobacion de la tabla     
+desc user_tables;     
+
+select table_name
+from user_tables
+where upper(table_name)='CENTROS';
+
+desc centros;
+
+--COMPROBAR LAS COLUMNAS DE LA TABLA
+DESC USER_CONSTRAINTS;
+DESC USER_VONS_COLUMNS;
+
+select c.constraint_name, c.constraint_type, cc.table_name, cc.column_name
+from user_constraints c, user_cons_columns cc
+where c.constraint_name = cc.constraint_name --JOIN
+and upper(c.table_name) = 'CENTROS';
+
+desc user_sequences;
+
+select table_name, column_name, data_default
+from user_tab_columns
+where upper(table_name) = 'CENTROS';
+
+select last_number, increment_by, min_value, max_value
+from user_sequences
+where sequence_name = 'ISEQ$$_328316';
+
+--EJERCICIO 7
+
+INSERT INTO CENTROS(NOMBRE,CALLE,NUMERO,CP,CIUDAD,PROVINCIA,TELEFONO)
+VALUES ('NASA', 'FRANCIA',27,01010,'VITORIA','ALAVA',945874963);
                 
                 
                 
